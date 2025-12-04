@@ -1,53 +1,60 @@
-# Customer-Sales-Analysis-with-SQL
-SQL project focused on cleaning and analyzing a retail sales dataset. Includes customer insights, yearly sales trends, product performance, and manufacturer distribution. Queries answer key business questions and provide actionable insights.
+**Sales Data Analysis using SQL**
+**Project Overview**
 
-Overview
+This project performs exploratory data analysis (EDA) on a sales dataset using SQL. The focus is on understanding customer behavior, sales trends, product insights, and regional distribution.
 
-This project involves cleaning and analyzing a retail sales dataset using SQL.
-The goal is to extract meaningful insights about customers, products, regions, manufacturers, and yearly sales performance.
+The analysis answers several business questions and generates insights to guide decision-making.
+
+**Analysis Performed**
+
+Total number of customers – Understanding the customer base size.
+
+Total sales – Overall revenue from all sales.
+
+Quantity sold in each year – Tracking sales volume trends over time.
+
+Total sales in each year – Yearly revenue overview.
+
+Highest single sale in each year – Highlights peak transactions.
+
+Total and average discount – Evaluates discount strategies.
+
+Total and average profit – Assesses overall profitability.
+
+Customer with highest and lowest sales – Identifies top and bottom contributors.
+
+Year with highest and lowest sales – Reveals seasonal or yearly trends.
+
+State with most and least customers – Shows geographic customer distribution.
+
+Total sales per customer – Measures individual customer contribution.
+
+Products bought by each customer – Identifies purchase behavior.
+
+Category and subcategory per customer – Shows customer preferences.
+
+Customer categorization by region – Regional analysis of customer base.
+
+Total number of customers per region – Highlights areas with highest/lowest engagement.
+
+Distinct manufactory and product names – Product diversity and vendor insights.
+
+**Key Insights**
+
+Certain customers contribute significantly to total sales.
+
+Yearly sales trends reveal high and low performing periods.
+
+Discount and profit analysis indicates which strategies are most effective.
+
+Regional and state-based analysis identifies where most customers are concentrated.
+
+Product and category insights can guide marketing, inventory, and cross-selling strategies.
 
 **Technologies Used**
 
-MySQL
+SQL (MySQL) – For querying, aggregation, and analysis
 
-SQL (CTEs, Window Functions, Aggregations)
+CTEs, GROUP BY, HAVING, Window Functions – **For advanced data analysis**
 
-**Business Questions Answered**
-
-Total number of customers
-
-Yearly total sales and quantities
-
-Highest and lowest sales per year
-
-Customer with highest and lowest sales
-
-Total sales for each customer
-
-Regional and state distribution of customers
-
-Distinct manufacturers and product names
-
-Customer category and subcategory insights
-
-**Project Files**
-
-data_cleaning.sql — Fixes missing values, trims text, removes duplicates
-
-sales_analysis.sql — Yearly sales, highest/lowest sales, trends
-
-customer_insights.sql — Customer-level KPIs
-
-product_analysis.sql — Product, category, manufacturer insights
-
-**Results**
-
-Identified top-performing customers
-
-Determined yearly sales fluctuations
-
-Highlighted leading product categories
-
-Showed regional customer distribution
-
-Extracted most active states and manufacturers
+GitHub – For hosting and sharing the project
